@@ -1,0 +1,268 @@
+
+<html>
+        <head>
+                <style type="text/css">
+                    :is(input,textarea):invalid{
+                        background: red;
+                        color:#fff;
+                    }
+                    ::placeholder{
+                        color: darkred;
+                    }
+                </style>
+            <meta charset="utf_8">
+            <title>Panaderia</title> <!-- El título de la página -->
+
+        </head>
+
+        <!--="C:\Users\zurie\Downloads\img.png"-->
+        <body >
+            <!-- El contenido principal de la página web va dentro de la etiqueta body -->
+            <a href="index.html#alumnos">Alumnos</a> <!-- Enlace que lleva a la sección "alumnos" de la página index.html -->
+            <a href="index.html#profesores">Profesores</a> <!-- Enlace que lleva a la sección "profesores" de la página index.html -->
+            <br> <!-- Sirve para dar un salto de línea -->
+            
+            <p>Hola mundo</p> <!-- Etiqueta <p> usada para agregar párrafos de texto -->
+            <b>Hola mundo</b> <!-- Etiqueta <b> sirve para poner el texto en negritas -->
+            <i>Hola mundo</i> <!-- Etiqueta <i> sirve para poner el texto en cursiva -->
+            <u>Hola mundo</u> <!-- Etiqueta <u> subraya el texto -->
+        
+            <p align="left">Hola mundo</p><br> <!-- Párrafo alineado a la izquierda,con un salto de línea -->
+            <p align="center">Hola Mundo</p><br> <!-- Párrafo centrado horizontalmente,con un salto de línea -->
+            <p align="right">Hola Mundo</p><br> <!-- Párrafo alineado a la derecha,con un salto de línea -->
+    
+            <p align="left">Hola Mundo</p><br> <!-- Párrafo alineado a la izquierda, con un salto de línea -->
+            <p align="left">Hola Mundo</p><br> <!-- Párrafo alineado a la izquierda, con un salto de línea -->
+            <p align="left">Hola Mundo</p><br> <!-- Párrafo alineado a la izquierda, con un salto de línea -->
+
+            <!-- Tres párrafos alineados a la izquierda, cada uno seguido por un salto de línea -->
+            <div align="left"> <!-- Un contenedor de bloque (<div>) que agrupa contenido y está alineado a la izquierda -->
+                <p>hola mundo</p> <!-- Primer párrafo dentro del div -->
+                <p>hola mundo</p> <!-- Segundo párrafo dentro del div -->
+                <P>hola mundo</P> <!-- Tercer párrafo dentro del div-->
+            </div>
+        
+            <!-- Encabezados de distintos tamaños, el tamaño varia dependiendo del numero despues de la h-->
+            <h1>Hola mundo</h1>
+            <h2>Hola mundo</h2>
+            <h3>Hola Mundo</h3>
+            <h4>Hola Mundo</h4>
+            <h5>Hola Mundo</h5>
+            <h6>Hola Mundo</h6>
+        
+            <h1>5<sup>3</sup></h1> <!-- El texto '3' es un superíndice, usado para exponer un número-->
+        
+            <h1>H<sup>2</sup>O</h1> <!-- El superíndice '2' indica el número de átomos de hidrógeno en la molécula de agua -->
+        
+            <h1>La <sup>13</sup>CC <sup>3</sup>H <sup>4</sup>Cinos es un heterociclo alergeno enriquecido</h1>
+            <!-- Ejemplo de texto con superíndices usado en una fórmula o descripción química -->
+    
+           <font face="Comic Sans MS, arial, verdada" size="10"> HolaMundo </font> <!-- Usando la etiqueta <font> para definir la fuente y el tamaño del texto -->
+    
+            <table border="2" width="70%" align="center"> <!-- Tabla con un borde de 2 píxeles -->
+                <tr>
+                    <td>Nombre</td> <!-- Celda con el texto "Nombre" -->
+                    <td>E-mail</td> <!-- Celda con el texto "E-mail" -->
+                </tr>
+                <tr>
+                    <td>Pablo Zuriel Nava Hernand&eacute;z</td> <!-- Nombre del usuario -->
+                    <td>Zuriel@gmail.com</td> <!-- Correo electrónico del usuario -->
+                </tr>
+            </table>
+    
+            <a name="alumnos"></a> <!-- Marcador de ancla para la sección "alumnos" -->
+    
+            <ul type="square"> <!-- Lista desordenada con viñetas cuadradas -->
+                <li>Enero</li>
+                <li>Febrero</li>
+                <li>Marzo</li>
+            </ul>
+    
+            <ul type="circle"> <!-- Lista desordenada con viñetas circulares -->
+                <li>Enero</li>
+                <li>Febrero</li>
+                <li>Marzo</li>
+            </ul>
+    
+            <ul type="disc"> <!-- Lista desordenada con viñetas en forma de disco -->
+                <li>Enero</li>
+                <li>Febrero</li>
+                <li>Marzo</li>
+            </ul>
+    
+            <ol type="1"> <!-- Lista ordenada con números -->
+                <li>Enero</li>
+                <li>Febrero</li>
+                <li>Marzo</li>
+            </ol>
+    
+            <ol type="1"> <!-- Otra lista ordenada con números -->
+                <li>Enero</li>
+                <li>Febrero</li>
+                <li>Marzo</li>
+            </ol>
+    
+            <ol type="i" start="10"> <!-- Lista ordenada con números romanos, iniciando en el número 10 -->
+                <li>Enero</li>
+                <li>Febrero</li>
+                <li>Marzo</li>
+            </ol>
+    
+            <dl> <!-- Definición de lista (<dl>) con términos y descripciones -->
+                <dt>IMMS</dt> <!-- Término definido: IMMS -->
+                <dd>Instituto Mexicano del seguro social</dd> <!-- Descripción: Instituto Mexicano del Seguro Social -->
+                <dt>TecNM</dt> <!-- Término definido: TecNM -->
+                <dd>Tecnologico nacional de Mexico</dd> <!-- Descripción: Tecnológico Nacional de México -->
+                <dt>ITT</dt> <!-- Término definido: ITT -->
+                <dd>Insituto Tecnologico de Tuxtepec</dd> <!-- Descripción: Instituto Tecnológico de Tuxtepec -->
+            </dl>
+    
+            <ul> <!-- Lista desordenada -->
+                <li>Mexico</li>
+                <ol> <!-- Lista ordenada anidada dentro del elemento 'México' -->
+                    <li>Oaxaca</li>
+                    <li>Veracruz</li>
+                </ol>
+                <li>Colombia</li>
+                <ol> <!-- Lista ordenada anidada dentro del elemento 'Colombia' -->
+                    <li>Barranquilla</li>
+                    <li>Cali</li>
+                </ol>
+            </ul>
+    
+            <a href="ejemplo2.html">Ejemplo2</a> <!-- Enlace a otra página web llamada ejemplo2.html -->
+    
+            <a name="profesores"></a> <!-- Marcador de ancla para la sección "profesores" -->
+            <a href="https://www.google.com.mx/">GOOGLE</a> <br> <!-- Enlace que dirige a Google -->
+            <a href="zuriel.nava.hernandez@gmail.com">Gmail</a> <br> <!-- Enlace para enviar un correo a Gmail -->
+            <a href="C:\Users\zurie\Downloads\PRAC-LAB-NAVA_Hernandez_Pablo_Zuriel_PWeb(A)_U1.pdf.pdf">PDF</a> <br> <!-- Enlace a un archivo PDF local -->
+            <a href="ejemplo2.html">
+
+               
+                <img src="imgenes/descargar.png"></a> <!-- Enlace que contiene una imagen local -->
+    
+
+
+            <table cellspacing="10" cellpadding="10" border="0"> <!-- Tabla general -->
+                <tr>
+                    <td align="center" bgcolor="green">celda de la tabla principal</td> <!-- Celda alineada al centro con fondo verde -->
+                    <td align="center">
+                        <table cellspacing="2" cellpadding="2" border="0"> <!-- Tabla interna sin borde, con espaciado entre celdas y contenido -->
+                            <tr>
+                                <td>Tabla animada, celda 1</td>
+                                <td>Tabla animada, celda 2</td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="yelow">tabla animada, celda 3</td> <!-- Color de fondo 'yelow' con error tipográfico ('yellow' debería ser el correcto) -->
+                                <td>Tabla animada, celda 4</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+    
+            <form> <!-- Etiqueta que define un formulario. Agrupa los elementos de entrada (input), áreas de texto (textarea), menús de selección (select), etc. -->
+    
+                <input type="text" name="nombre" value="Benito Juarez"> <br> 
+                <!-- Campo de texto donde el usuario puede escribir. El atributo 'name' identifica el campo, y 'value' define un valor predeterminado. <br> se usa para saltar una línea. -->
+                
+                <input type="password" name="cve"><br> 
+                <!-- Campo para ingresar una contraseña. Lo que se escribe aquí se muestra como asteriscos o puntos para ocultar la entrada. 'name' identifica el campo. -->
+                
+                <textarea name="comentario" rows="10" cols="30">Buzon de quejas y sugerencias</textarea>
+                <!-- Área de texto para entradas más largas. 'name' identifica el campo, 'rows' y 'cols' definen el tamaño del área de texto. El contenido dentro de la etiqueta es el valor predeterminado. -->
+                
+                <select name="estaciones">
+                    <!-- Menú desplegable que permite seleccionar una opción de una lista. 'name' identifica el menú. -->
+                    <option>Primavera</option> <!-- Opción del menú desplegable. -->
+                    <option selected="Verano"></option> <!-- Opción del menú desplegable. -->
+                    <option>Otoño</option> <!-- Opción del menú desplegable. -->
+                    <option>Invierno</option> <!-- Opción del menú desplegable. -->
+                </select><br>
+                
+                <input type="radio" name="estacion2" value="1">Primavera<br>
+                <input type="radio" name="estacion2" value="2">Verano <br>
+                <input type="radio" name="estacion2" value="3">Otoño<br>
+                <input type="radio" name="estacion2" value="4">Invierno<br>
+                <!-- Grupo de botones de opción (radio buttons) que permiten seleccionar solo una opción de varias. Todos los botones comparten el mismo 'name' para tratarlos como un grupo. 'value' es el valor enviado al servidor si este botón es seleccionado. -->
+                
+                <input type="checkbox" name="estacion2" value="1">Primavera<br>
+                <input type="checkbox" name="estacion2" value="2">Verano <br>
+                <input type="checkbox" name="estacion2" value="3">Otoño<br>
+                <input type="checkbox" name="estacion2" value="4">Invierno<br>
+                <!-- Grupo de casillas de verificación (checkboxes) que permiten seleccionar múltiples opciones. 'name' identifica el grupo, y 'value' es el valor enviado si la casilla es seleccionada. -->
+                
+                <input type="submit" value="enviar">
+                <!-- Botón de envío que envía los datos del formulario al servidor. 'value' define el texto que aparece en el botón. -->
+                
+                <input type="submit" value="Limpiar">
+                <!-- Otro botón de envío. Normalmente, se usa 'reset' en lugar de 'submit' para restablecer el formulario, pero en este caso, se usa 'submit' con un valor de "Limpiar". -->
+            </form>
+
+            <video width="220" height="200" controls="">
+                <!-- Etiqueta para insertar un video. 'width' y 'height' definen el tamaño del video. 'controls' agrega controles de reproducción como play, pause, etc. -->
+                <source src="#" type="video/mp4">
+                <!-- Fuente del video. 'src' especifica la URL del video y 'type' define el tipo de video. -->
+            </video>
+
+
+            <iframe width="420" height="315" src="https://youtu.be/uZJ5yEEDH8c?si=5KtyuQIA-KOmYRwi">
+            </iframe>
+            
+            
+            <form name="formulario" method="POST" action="ejemploPost2.php">
+                Nombre: <input type="text" name="nombre" value="">
+                <input type="submit">
+            </form>
+
+
+
+            <form action="procesar_formulario2.php" method="POST">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre"><br>
+                <label for="correo">Correo electronico:</label>
+                <input type="email" id="correo" name="correo"><br>
+                <input type="submit" value="Enviar">
+            </form>
+
+            <form>
+                <input type="text" name="username" placeholder="manzDev"
+                minlength="5" maxlength="40" required pattern="[ A-Za-z0-9]+">
+                <input type="text" name="username" placeholder="manzDev"
+                required pattern="[ A-Za-z0-9]{5,40}">
+                <input type="submit" value="enviar"><br>
+
+                <input type="text" name="model" placeholder="su modelo de coche"
+                required pattern="(A|a)(1|3|4|15)"
+                title="modelos posibles: A1, A3, A4 Y A15"><br>
+                <input type="submit" value="enviar"><br>
+            </form>
+
+            Selecciona la fecha deseada:
+            <input type="date" value="2024-02-25"><br>
+
+            Selecciona la fecha deseada:
+            <input type="date" min="2024-02-25" max="2024-12-25">
+                <input type="submit" value="enviar"><br>
+                    <input type="date" value="2024-09-22"
+                    min="2024-02-25" max="2024-12-25" step="2"><br>
+
+                        Selecciona la fecha deseada:
+                        <input type="month" value="2024-11"
+                            min="2024-02" max="2024-12" step="2"> <br>
+
+                        Selecciona la fecha deseada:
+                        <input type="week" value="2024-W19"
+                            min="2024-W13" max="2024-W36" step="2">
+                        
+                        Selecciona la fecha deseada:
+                        <input type="time" value="11:00"
+                            min="09:00" max="22:00" step="30">
+                        
+                    <h1>Hola a todos</h1>
+                    <p>Hola a todos</p>
+                    <p id="para1">Hola a todos</p>
+                    <p>Hola a todos</p>
+                    <h1 style="color: blue;text-align:center;">Hola a todos desde aqui</h1>
+        </body>
+</html>

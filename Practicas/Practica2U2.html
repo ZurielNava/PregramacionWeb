@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Define la codificación de caracteres como UTF-8 para soportar caracteres especiales -->
+    <meta charset="UTF-8">
+    <!-- Establece el título de la página que aparecerá en la pestaña del navegador -->
+    <title>Página Web Básica</title>
+
+    <style>
+        /* Estilo para el cuerpo de la página */
+        body {
+            font-family: Arial, sans-serif; /* Define la fuente utilizada en el texto */
+            background-color: #f0f0f0; /* Establece un color de fondo claro */
+            color: #333; /* Define el color del texto */
+            text-align: center; /* Alinea el texto al centro de la página */
+            margin: 0; /* Elimina el margen por defecto */
+            padding: 0; /* Elimina el relleno por defecto */
+        }
+
+        /* Estilo para el encabezado principal */
+        h1 {
+            color: #0080ff; /* Define el color del texto del encabezado */
+        }
+        h4 {
+            color:maroon;
+            font-weight: bold;
+        }
+
+        /* Estilo para el contenedor de la imagen y el contenido */
+        .container {
+            display: flex; /* Utiliza flexbox para alinear los elementos */
+            align-items: center; /* Alinea verticalmente los elementos en el centro */
+            justify-content: center; /* Centra horizontalmente el contenedor */
+        }
+        /* Estilo para el formulario */
+        form {
+            margin: 20px auto; /* Añade un margen superior de 20px y centra el formulario */
+            padding: 10px; /* Añade un relleno interno de 10px */
+            background-color: #fff; /* Define el color de fondo del formulario como blanco */
+            border-radius: 8px; /* Redondea las esquinas del formulario */
+            width: 300px; /* Establece el ancho del formulario en 300px */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra suave alrededor del formulario */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Logo de la página -->
+        <img src="img/logo.jpg" width="150" height="150">
+        <img src="img/Tecnologico_Nacional_de_Mexico.svg.png" width="400" height="150">
+    </div>
+
+
+    <!-- Encabezado principal de la página -->
+    <h1>Práctica de laboratorio U2</h1>
+    <h4>Esta es una página simple para mostrar el uso de HTML, CSS y PHP.</h4>
+
+    <!-- Formulario para capturar datos del usuario -->
+    <form action="Datos.php" method="POST">
+        <!-- Etiqueta y campo de entrada para el nombre -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+        
+        <!-- Etiqueta y campo de entrada para el correo -->
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required><br>
+        
+        <!-- Botón de envío del formulario -->
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h3>NAVA Hernandez Pablo Zuriel</h3>
+    <h4>Ingenieria en sistemas computacionales</h4>
+</body>
+</html>
